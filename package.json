@@ -1,0 +1,24 @@
+{
+  "name": "Verily",
+  "version": "0.2.1",
+  "description": "Crowdsourced verification",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ec2:/var/www/very.git"
+  },
+  "author": "AbdulFattah && Dmytro && Peter",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "5e53d65e4ff8c7986504de39778f2a64483c8950",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "ember-precompile": "~0.2.2",
+    "grunt-ember-templates": "~0.4.8",
+    "grunt-contrib-concat": "~0.3.0"
+  }
+}
