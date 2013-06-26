@@ -13,7 +13,12 @@ The project requires npm to be installed.
 
 Then npm install in the project's directory.
 
-grunt (check jshint for syntax errors)
+>check with jshint for syntax errors
+```shell
+grunt 
+```
 
-grunt precompile (create new modules with precompiled templates)
-
+>create new modules with precompiled templates
+```shell
+grunt precompile 
+```
