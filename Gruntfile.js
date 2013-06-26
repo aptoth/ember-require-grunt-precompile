@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('compile',['emberTemplates:compile']);
 
 	grunt.registerTask('makeModule', 'My "precompile" task.', function() {
-		grunt.task.requires('compile'); // make sure bar was run and did not fail
+		grunt.task.requires('compile'); // make sure compile was run and did not fail
 		grunt.task.run('concat');
 	});
 
