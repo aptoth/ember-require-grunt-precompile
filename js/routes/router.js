@@ -3,6 +3,7 @@ define(['ember'],function(){
 
 	Router.map(function(){
 		this.route('index', {path: '/'});
+		this.route('two',{path: '/two'});
 	});
 	
 	return Router;

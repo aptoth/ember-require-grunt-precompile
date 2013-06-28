@@ -5,6 +5,7 @@ define(['routes/router',
 			IndexRoute,
 			IndexController){
 	var App = {
+		LOG_TRANSITIONS: true,
 		Router : Router,
 
 		IndexRoute: IndexRoute,

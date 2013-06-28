@@ -1,15 +1,14 @@
 (function(root) {
-	require(["config"], function(config) {
-		requirejs.config(config);
+    require(["config"], function(config) {
 
-		requirejs(["js/templates/precompiled/templatesModule.js"]);
+        requirejs.config(config);
 
-		requirejs(["App", "ember"], function(App, Ember,HBS) {
+        requirejs(["js/templates/precompiled/templatesModule.js"]);
+        
+        require(["App", "ember"], function(App, Ember) {
 
-			var AppName = config.AppName || "App";
-			root[AppName] = App = Ember.Application.create(App);
-			
-		});
-	});
+            var AppName = config.app_name || "App";
+            root[AppName] = App = Ember.Application.create(App);
+        });
+    });
 })(this);
-

@@ -19,6 +19,7 @@
     "grunt-contrib-jshint": "~0.6.0",
     "ember-precompile": "~0.2.2",
     "grunt-ember-templates": "~0.4.8",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4"
   }
 }
