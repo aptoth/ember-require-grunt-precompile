@@ -22,3 +22,8 @@ grunt
 ```shell
 grunt precompile 
 ```
+
+>In order to make the developement automated the precompilation has been added as a grunt watch task.
+```shell
+grunt watch
+```
