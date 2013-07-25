@@ -1,5 +1,5 @@
 define(['ember'],function(){
-	var IndexController = Ember.Controller.extend({
+	var IndexController = Ember.ObjectController.extend({
 		contProp: 99
 	});
 
