@@ -1,16 +1,20 @@
 define(['routes/router',
 		'routes/IndexRoute',
-		'controllers/IndexController'],
+		'controllers/IndexController',
+		'views/RichView'],
 		function(Router,
 			IndexRoute,
-			IndexController){
+			IndexController,
+			RichView){
 	var App = {
 		LOG_TRANSITIONS: true,
 		Router : Router,
 
 		IndexRoute: IndexRoute,
 
-		IndexController: IndexController
+		IndexController: IndexController,
+
+		RichView: RichView
 	};
 
 	return App;

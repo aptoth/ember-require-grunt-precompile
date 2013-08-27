@@ -13,6 +13,7 @@ define({
         jquery: 'libs/jquery.min',
         handlebars: 'libs/handlebars',
         ember: 'libs/ember',
-        App: 'app'
+        App: 'app',
+        tinyMCE: 'libs/tinymce.min'
     }
 });
